@@ -55,7 +55,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
             {/* This is a sample image, replace with actual images */}
-            <img src="https://drive.google.com/file/d/1Dx_iI1ZlO75z8ywnukZuW4Rb06KYHLTO/view?usp=sharing" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
+            <img src="https://drive.google.com/file/d/1Dx_iI1ZlO75z8ywnukZuW4Rb06KYHLTO/view" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Espresso</h3>
             <p className="text-white/90 mt-2">A strong and bold espresso shot.</p>
           </div>
