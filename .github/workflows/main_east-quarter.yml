@@ -13,10 +13,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read #This is required for actions/checkout
+      contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository (with LFS support)
+        uses: actions/checkout@v4
+        with:
+          lfs: true  # ✅ This fetches Git LFS files
+
+      - name: Install Git LFS and pull LFS files
+        run: |
+          git lfs install
+          git lfs pull  # ✅ Actually downloads image files
 
       - name: Set up Node.js version
         uses: actions/setup-node@v3
