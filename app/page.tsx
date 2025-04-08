@@ -7,7 +7,7 @@ export default function Home() {
       <section 
         className="relative w-full min-h-[90vh] flex items-center justify-center text-white text-center overflow-hidden"
         style={{ 
-          backgroundImage: 'url(/nathan-dumlao-6VhPY27jdps-unsplash.jpg)',
+          backgroundImage: 'url(/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -54,17 +54,17 @@ export default function Home() {
         <p className="text-center text-white/90 mb-12">A Gallery of Our Most Popular Coffee and Tea Selections</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
-            <img src="/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
+            <img src="/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Espresso</h3>
             <p className="text-white/90 mt-2">A strong and bold espresso shot.</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
-            <img src="/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Cappuccino" className="w-full h-48 object-cover rounded-md" />
+            <img src="/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Cappuccino" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Cappuccino</h3>
             <p className="text-white/90 mt-2">Perfectly balanced with steamed milk.</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
-            <img src="/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Tea Selection" className="w-full h-48 object-cover rounded-md" />
+            <img src="/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Tea Selection" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Tea Selection</h3>
             <p className="text-white/90 mt-2">Premium teas from around the world.</p>
           </div>

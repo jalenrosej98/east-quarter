@@ -5,7 +5,7 @@ export default function Contact() {
       <section 
         className="relative min-h-[40vh] flex items-center justify-center text-white text-center"
         style={{ 
-          backgroundImage: 'url(/nathan-dumlao-6VhPY27jdps-unsplash.jpg)',
+          backgroundImage: 'url(/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
