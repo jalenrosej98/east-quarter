@@ -5,7 +5,7 @@ export default function About() {
       <section 
         className="relative min-h-[40vh] flex items-center justify-center text-white text-center"
         style={{ 
-          backgroundImage: 'url(/coffee-boss.jpg)',
+          backgroundImage: 'url(https://media.githubusercontent.com/media/jalenrosej98/east-quarter/main/public/coffee-boss.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
