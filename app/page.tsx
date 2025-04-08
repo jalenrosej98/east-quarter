@@ -54,6 +54,7 @@ export default function Home() {
         <p className="text-center text-white/90 mb-12">A Gallery of Our Most Popular Coffee and Tea Selections</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
+            {/* This is a sample image, replace with actual images */}
             <img src="/images/sample.png" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Espresso</h3>
             <p className="text-white/90 mt-2">A strong and bold espresso shot.</p>
