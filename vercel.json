@@ -1,7 +1,0 @@
-{
-  "buildCommand": "git lfs install && git lfs pull && npm run build",
-  "installCommand": "git lfs install && git lfs pull && npm install",
-  "framework": "nextjs",
-  "outputDirectory": ".next",
-  "ignoreCommand": "git lfs ls-files | cat"
-}
