@@ -5,7 +5,7 @@ export default function About() {
       <section 
         className="relative min-h-[40vh] flex items-center justify-center text-white text-center"
         style={{ 
-          backgroundImage: 'url(/images/coffee-boss.jpg)',
+          backgroundImage: 'url(https://i.ibb.co/Xxh1Tm9x/coffee-boss.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -60,7 +60,7 @@ export default function About() {
             {/* Right Column - Image */}
             <div className="sticky top-8">
               <img 
-                src="/images/coffee-boss.jpg" 
+                src="https://i.ibb.co/Xxh1Tm9x/coffee-boss.jpg" 
                 alt="East Quarter Coffee Bar" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />

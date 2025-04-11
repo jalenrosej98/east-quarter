@@ -7,7 +7,7 @@ export default function Home() {
       <section 
         className="relative w-full min-h-[90vh] flex items-center justify-center text-white text-center overflow-hidden"
         style={{ 
-          backgroundImage: 'url(/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg)',
+          backgroundImage: 'url(https://i.ibb.co/nq4mmWym/Home-bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -55,17 +55,17 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
             {/* This is a sample image, replace with actual images */}
-            <img src="https://drive.google.com/thumbnail?id=1Dx_iI1ZlO75z8ywnukZuW4Rb06KYHLTO" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
+            <img src="https://i.ibb.co/WNnFpKPx/Espresso.jpg" alt="Espresso" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Espresso</h3>
             <p className="text-white/90 mt-2">A strong and bold espresso shot.</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
-            <img src="https://lh3.googleusercontent.com/d/1Dx_iI1ZlO75z8ywnukZuW4Rb06KYHLTO=s220?authuser=0" alt="Cappuccino" className="w-full h-48 object-cover rounded-md" />
+            <img src="https://i.ibb.co/mV2714Cv/Cappacino.jpg" alt="Cappuccino" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Cappuccino</h3>
             <p className="text-white/90 mt-2">Perfectly balanced with steamed milk.</p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg shadow-md border border-white/20">
-            <img src="/images/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Tea Selection" className="w-full h-48 object-cover rounded-md" />
+            <img src="https://i.ibb.co/8n6sPd2F/Coffee-beans.jpg" alt="Tea Selection" className="w-full h-48 object-cover rounded-md" />
             <h3 className="mt-4 text-xl font-semibold text-white">Tea Selection</h3>
             <p className="text-white/90 mt-2">Premium teas from around the world.</p>
           </div>
